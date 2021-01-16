@@ -15,8 +15,7 @@ nav {
     left: 0;
     right: 0;
     height: 70px;
-    background: #ed1942 url(../img/tex-bg1.png) repeat left;
-
+    background: #1E1D32;
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -44,6 +43,10 @@ nav .logo {
     color: white;
 }
 
+
+
+
+
  /*---------- section list somed pic --------------------------*/
 
 
@@ -59,7 +62,63 @@ nav .logo {
 }
 
 
+/* -----------------  content -----------------------*/
+.content {
+    
+    position: relative;
+    top:0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
 
+.left-content {
+
+    position: relative;
+    max-width: 600px;
+}
+
+.left-content img {
+    width: 100%;
+}
+
+.right-content {
+    height: auto;
+    width: 50%;
+    
+}
+
+.right-content-kotak {
+    padding: 30px 20px 20px 30px;
+    background: #26253f;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    display: flex;
+}
+
+.right-detail-text {
+    color: white;
+}
+
+.right-content-kotak:hover {
+    background-color: #ed1942;
+}
+
+.righ-content-img {
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.righ-text-judul {
+    font-size: 30px;
+    color: white;
+    font-weight: 300;
+}
 
 
 
