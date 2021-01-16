@@ -1,0 +1,10 @@
+
+/* for tablet */
+@media all and (max-width: 1000px) {
+    section {
+        padding: 70px;
+    }
+
+   
+
+}

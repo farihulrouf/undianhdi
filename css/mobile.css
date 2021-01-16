@@ -1,0 +1,11 @@
+
+/* Media responsive Mobile */
+@media all and (max-width: 670px) {
+    section {
+        padding: 40px;
+        padding-bottom: 150px;
+    }
+
+    
+
+}
