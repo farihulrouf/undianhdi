@@ -10,21 +10,40 @@
 }
 
 
+nav {
+    top:0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background: #ed1942 url(../img/tex-bg1.png) repeat left;
 
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
 
- section {
-     position: relative;
-     width: 100%;
-     padding: 100px;
-     min-height: 100vh;
-     background:  #ed1942;
-     transition: 0.5s;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
- }
+nav .logo {
+    position: relative;
+    max-width: 80px;
+    margin-left: 10px;
+}
 
- 
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    align-items: center;
+}
+
+.navigation li {
+    list-style: none;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: white;
+}
+
  /*---------- section list somed pic --------------------------*/
 
 
@@ -50,17 +69,19 @@
     display: flex;
     justify-content: space-around;
     width: 100%;
+    margin-top: 100px;
 }
 
 .kotak-x {
-    margin: 5px;
-    width: 33.33%;
+    width: 100%;
     height: 100px;
-    background: #ed1942;
+    background: #ed1942 url(../img/tex-bg1.png) repeat left;
     transition: 0.5s;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    border-radius: 3px;
+    margin: 5px;
 }
 
 
